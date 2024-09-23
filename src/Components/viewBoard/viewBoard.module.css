@@ -1,0 +1,105 @@
+/* Container for transaction list */
+.transactionContainer {
+    /* position: absolute; */
+    right: 88px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 468px;
+    height: 345px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .transactionHeader {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #333;
+  }
+  
+  /* Individual transaction item */
+  .transactionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    padding: 13px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .transactionIcon {
+    font-size: 24px;
+    color: #494d52;
+    
+  }
+  
+  .transactionDetails {
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  
+  .transactionTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .transactionDate {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Transaction amount */
+  .transactionAmount {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .positive {
+    color: #28a745;
+  }
+  
+  .negative {
+    color: #dc3545;
+  }
+  
+  /* Button to view all transactions */
+  .viewAllButton {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(95, 0, 217, 1);;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .viewAllButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .transactionContainer {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .transactionItem {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .transactionDetails {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  }
+  

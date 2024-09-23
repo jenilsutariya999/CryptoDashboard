@@ -1,0 +1,155 @@
+/* Card container */
+.maincard{
+  display: flex;
+  width: 100%;
+  max-width: 70%;
+  justify-content: space-around;
+  /* position: absolute; */
+  left: 17%;
+  margin-left: 285px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 468px;
+    height: 345px;
+    margin: 20px auto;
+    /* position: absolute;
+    left: 25%; */
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Button container */
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button.buy {
+    background-color: rgba(95, 0, 217, 1); /* Green color for Buy button */
+  }
+  
+  .button.sell {
+    background-color: rgba(95, 0, 217, 1) /* Red color for Sell button */
+  }
+  
+  .button i {
+    margin-right: 5px;
+  }
+  
+  /* Price styling */
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .btcprice{
+    display: flex;
+    gap: 10px;
+  }
+
+  .btcprice .priceChange{
+    font-size: 14px;
+    color: #28a745;
+  }
+  /* Price change styling */
+  .price-change {
+    font-size: 12px;
+    color: #28a745; /* Green for upward trend */
+    margin-bottom: 20px;
+  }
+  
+  /* Timeframe buttons */
+  .timeframe {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* position: relative; */
+  }
+  
+  .timeframe button {
+    background-color: #f1f1f1;
+    padding: 6px 6x;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .timeframe button.active {
+    background-color: #c3c5c7;
+    color: white;
+  }
+  
+  .timeframe button:hover {
+    background-color: #c3c5c7;
+    color: white;
+  }
+  
+  /* Chart placeholder */
+  .chart {
+    height: 110px;
+    margin-bottom: 20px;
+  }
+  
+  /* Timestamps */
+  .timestamps {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .timestamps span {
+    padding: 0 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      padding: 15px;
+    }
+  
+    .header h1 {
+      font-size: 20px;
+    }
+  
+    .price {
+      font-size: 30px;
+    }
+  
+    .price-change {
+      font-size: 16px;
+    }
+  
+    .timeframe button {
+      padding: 6px 10px;
+    }
+  }
+  

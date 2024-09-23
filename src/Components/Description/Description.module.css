@@ -1,0 +1,80 @@
+.maindesc{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 70%;
+    margin-left: 328px;
+}
+.description {
+    /* align-items: left; */
+    background-color: #fff; 
+    border-radius: 12px; 
+    padding: 15px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 465px;
+    height: 130px;
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+  }
+
+  .desc{
+    align-items: left;
+    background-color: rgba(95, 0, 217, 1); 
+    border-radius: 12px; 
+    padding: 15px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 465px;
+    height: 130px;
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+  }
+  
+  .loansBtn {
+    background-color: #6B4EFF; 
+    color: white;
+    border: none;
+    border-radius: 20px; 
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .conractBtn{
+    background-color: white; 
+    /* color: white; */
+    border: none;
+    border-radius: 20px; 
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .descriptionText {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+  
+.desText{
+    font-size: 18px;
+    color: white;
+    line-height: 1.6;
+    font-weight: 500;
+}
+  /* .description::before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+    /* background-image: url('/path/to/your-pattern-image.png'); */
+    /* opacity: 0.1;
+  } */
+   
